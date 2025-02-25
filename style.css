@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+}
+
+#vehicles-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.vehicles-wrapper {
+    width: 25%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: #cfcece;
+}
+
+.vehicles-wrapper * {
+    padding: 5px;
+}
